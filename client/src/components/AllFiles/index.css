@@ -1,0 +1,39 @@
+.select-files {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-files-input {
+    height: 45px;
+    max-width: 150px;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 25px;
+    border: none;
+}
+
+
+.select-files-btn-wrapper {
+    margin-right: -120px;
+}
+
+
+@media (max-width: 420px) {
+    .select-files {
+      flex-direction: column;
+    }
+
+    .select-files-btn-wrapper  {
+        margin: 15px 0;
+    }
+
+    .select-files-btn {
+        width: 80px;
+    }
+
+    .select-files-input  {
+        height: auto;
+        padding: 5px;
+    }
+}

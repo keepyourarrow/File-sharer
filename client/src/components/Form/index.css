@@ -1,0 +1,42 @@
+.upload {
+  display: flex;
+  justify-content: center;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .upload-btn,
+  .submit-btn {
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    height: 45px;
+  }
+
+  .upload-btn {
+    color: gray;
+    font-weight: bold;
+    border: 2px solid gray;
+    background-color: white;
+  }
+
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .upload-btn-wrapper input[type=file]::-webkit-file-upload-button {
+    cursor: pointer;
+  }
+
+  .upload-to-server-btn-wrapper {
+    margin-right: -50px;
+  }
+
