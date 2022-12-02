@@ -29,5 +29,5 @@ You upload your image from your phone then it gets saved to a local directory (f
 ![alt text](./screenshots/uploading_1.jpg?raw=true "Uploading1")
 ![alt text](./screenshots/uploading_2.jpg?raw=true "Uploading2")
 
-### Downloading it from our PC with a ZIP
+### Downloading it from our PC via ZIP
 ![alt text](./screenshots/downloading.jpg?raw=true "Downloading")
